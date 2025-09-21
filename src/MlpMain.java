@@ -1,27 +1,27 @@
 public class MlpMain {
 
-    public static double[][][] baseI = {
+    private static final double[][][] baseI = {
             {{0, 0}, {0}},
             {{0, 1}, {0}},
             {{1, 0}, {0}},
             {{1, 1}, {1}}
     };
 
-    public static double[][][] baseII = {
+    private static final double[][][] baseII = {
             {{0, 0}, {0}},
             {{0, 1}, {1}},
             {{1, 0}, {1}},
             {{1, 1}, {1}}
     };
 
-    public static double[][][] baseIII = {
+    private static final double[][][] baseIII = {
             {{0, 0}, {0}},
             {{0, 1}, {1}},
             {{1, 0}, {1}},
             {{1, 1}, {0}}
     };
 
-    public static double[][][] baseIV = {
+    private static final double[][][] baseIV = {
             {{0, 0, 0}, {1, 1}},
             {{0, 0, 1}, {0, 1}},
             {{0, 1, 0}, {1, 0}},
